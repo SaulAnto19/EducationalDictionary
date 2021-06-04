@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Educational Dictionary</title>
+    <title>Business Template</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -11,7 +11,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
-
   <body>
     <!--Header-->
     <header class="menu">
@@ -29,20 +28,20 @@
               <li class="name"></li>
               <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
               <li class="toggle-topbar menu-icon">
-                <a href="#"><span>Main</span></a>
+                <a href="#"><span>Menu</span></a>
               </li>
             </ul>
 
             <section class="top-bar-section">
               <!-- Right Nav Section -->
               <ul class="right">
-                <li class="active"><a href="index.html">HOME</a></li>
+                <li><a href="index.html">HOME</a></li>
                 <li><a href="windowOne.html">a - e</a></li>
                 <li><a href="windowOne.html">f - g</a></li>
                 <li><a href="windowOne.html">h - l</a></li>
                 <li><a href="windowOne.html">m - r</a></li>
                 <li><a href="windowOne.html">s - z</a></li>
-                <li><a href="addWord.html">Add Word</a></li>
+                <li class="active"><a href="addWord.html">Add Word</a></li>
               </ul>
             </section>
           </nav>
@@ -51,42 +50,42 @@
     </header>
     <!--End Header-->
 
-    <!--carusel-->
-    <div class="slider-sec">
-      <div class="slider single-item">
-        <div><img src="images/slide1.jpg" alt=" " /></div>
-        <div><img src="images/slide2.jpg" alt=" " /></div>
-      </div>
+    <div class="content-sec inner-sec">
       <div class="row">
-        <div class="large-12 columns no-pad">
-          <div class="banner-txt">
-            <h1>Dictionary<br />Meaning</h1>
-            <a href="#" class="button round">of words</a>
-          </div>
-        </div>
-      </div>
-      <!-- <script type="text/javascript">
-      $('.single-item').slick();
-    </script> -->
-    </div>
-    <!--carusel-->
-
-    <!--inicio de contenido-->
-    <div class="content-sec">
-      <div class="row">
-        <div class="large-12 columns text-center">
-          <h2>Dictionary</h2>
+        <div class="large-12 columns">
+          <h2>add word</h2>
           <p>
-            A dictionary is a catalog of words from a language or science,
-            generally arranged alphabetically, that provides their meaning,
-            etymology, spelling and, in the case of certain languages,
-            establishes their pronunciation and hyphenation.
+            Here you can add new words to the educational dictionary website.
           </p>
-          <!-- <a href="#" class="button round grey">Read More</a> -->
         </div>
+        <div class="clearfix"></div>
+        <form action="#" class="frm">
+          <div class="large-6 medium-6 small-12 columns">
+            <input name="" placeholder="Word name" type="text" class="radius" />
+          </div>
+          <div class="large-6 medium-6 small-12 columns">
+            <select class="radius">
+              <option value="red">A -E</option>
+              <option value="no red">F - G</option>
+              <option value="no red">H - l</option>
+              <option value="no red">M - R</option>
+              <option value="no red">S - Z</option>
+            </select>
+          </div>
+          <div class="large-12 columns">
+            <textarea placeholder="Description" class="radius"></textarea>
+          </div>
+          <div class="large-12 columns">
+            <input
+              name="submit"
+              type="submit"
+              value="Save"
+              class="button round"
+            />
+          </div>
+        </form>
       </div>
     </div>
-    <!--inicio de contenido-->
 
     <!--footer-->
     <div class="footer-sec">
@@ -128,7 +127,7 @@
           </div>
         </div>
 
-        <div class="large-3 medium-3 small-12 columns">
+        <div class="large-4 medium-3 small-12 columns">
           <div class="foot-1">
             <h4>Information</h4>
             <p>Designed by second-year students from Ruben Dario College</p>
@@ -169,7 +168,5 @@
       $(document).foundation();
     </script>
     <script type="text/javascript" src="js/all.js"></script>
-    <script type="text/javascript" src="slick/slick.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
   </body>
 </html>
